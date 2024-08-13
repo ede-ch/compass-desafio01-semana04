@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #39289f 0%, #422f9c 100%);
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+header {
+  background: linear-gradient(to right, #39289f 0%, #422f9c 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 55px;
+  margin-top: 37px;
+}
+header .logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 29px;
+  color: #fff;
+  text-decoration: none;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  margin-right: 88px;
+}
+header ul li:last-child {
+  margin-right: 0;
+}
+header ul li:nth-last-child(2) {
+  margin-right: 37px;
+}
+header ul li a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 55px 0;
+  transition: color 0.3s, background-color 0.3s;
+}
+header ul li a.contact-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  background-color: #fa9021;
+  color: #fff;
+  border-radius: 6px;
+  padding: 13px 41.34px;
+  transition: background-color 0.3s;
+}
+header ul li a:hover {
+  color: #ff9f1c;
+}
+header ul li a.contact-button:hover {
+  background-color: #ff851b;
+}
+main {
+  margin-top: 100px;
+}
