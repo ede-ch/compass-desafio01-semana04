@@ -12,8 +12,6 @@ body {
 header {
   background: linear-gradient(to right, #39289f 0%, #422f9c 100%);
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: 1000;
 }
@@ -22,6 +20,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-flow: row wrap;
   padding: 0 55px;
   margin-top: 37px;
 }
