@@ -1,74 +1,73 @@
 @import url("/navbar/navbar.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: #1d1b40;
   color: #ffffff;
-}
-
-#navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
+  padding: 0;
+  /* background: linear-gradient(to right, #39289f 0%, #422f9c 100%); */
   width: 100%;
-  z-index: 1000;
-  background: #1d1b40;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .main-container {
-  padding-top: 150px;
-}
-
-.main-container {
-  padding: 150px 100px 50px;
+  background-color: rgb(226, 43, 43);
+  padding: 0 147px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .content-container {
+  background-color: #2c87cc;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
-  max-width: 1200px;
   width: 100%;
 }
 
 .text-content {
+  background-color: darkgreen;
+  padding-top: 86.7px;
   flex: 1;
   max-width: 500px;
 }
 
 .main-title {
+  background-color: rgb(8, 49, 255);
   font-size: 50px;
-  font-weight: 00;
-  margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: 78px;
+  margin: 0;
 }
 
 .sub-title {
+  background-color: magenta;
   font-size: 20px;
   font-weight: bold;
   color: #e87d0e;
   -webkit-text-stroke: 1px #000000;
-  margin-bottom: 10px;
-  line-height: 17px;
+  margin: 0;
+  margin-bottom: 17px;
 }
 
 .main-paragraph {
+  background-color: #ebeb16;
   font-size: 16px;
   font-weight: 400;
   color: #cfcfcf;
   margin-bottom: 50px;
-  margin-top: 26px;
+  margin-top: 30px;
+  line-height: 29.5px;
 }
 
 .main-button {
   font-family: Poppins, sans-serif;
-  padding: 19px 53px;
+  padding: 14.5px 31px;
+  margin-top: 7px;
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
@@ -79,9 +78,9 @@ body {
 
 .joystick-image {
   object-fit: cover;
-  position: fixed;
+  position: absolute;
   top: 0px;
-  left: 781px;
+  left: 772px;
   z-index: 1000;
 }
 
@@ -104,3 +103,82 @@ body {
   left: 1168px;
   right: 351px;
 }
+.trending-games {
+  background-color: #b7c889;
+  margin:0;
+  padding:  17.5px 0px 0px;
+  width: 100%;
+  
+}
+.container-title {
+  background-color: #8ab613;
+  display: flex;
+  justify-content: space-between; /* Adiciona espaço entre o título e o botão */
+  align-items: center; /* Centraliza verticalmente os itens no container */
+  margin: 0;/* Adiciona um pouco de espaço à esquerda e à direita */
+}
+
+
+.trending-games h2 {
+  background-color: aqua;
+  margin: 170.5px 0 60px 0;
+  font-family: Rubik, sans-serif;
+  font-size: 31px;
+  font-weight: 800;
+}
+
+.games-list {
+  background-color: antiquewhite;
+  display: flex;
+  gap: 46.5px;
+  flex-wrap: wrap;
+}
+
+.game {
+  margin-top: 5px;
+  background-color: #FF8C00;
+}
+
+.game img {
+  background-color: darkred;
+  width: 252px;
+  height: 278px;
+  border-radius: 10px;
+}
+
+.game p {
+  font-family: Rubik, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  background-color: chartreuse;
+  margin-top: 25px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.game p::before {
+  content: url("/home/images/fire.png"); /* URL da imagem a ser adicionada */
+  vertical-align: middle; /* Centraliza a imagem verticalmente com o texto */
+}
+
+.see-all-button {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  position: flex;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.11);
+  padding: 16px 30px;
+  margin-right: 40px;
+  margin-top: 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.see-all-button:hover {
+  background-color: #ffffff72;
+}
+
+

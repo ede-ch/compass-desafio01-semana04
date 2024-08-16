@@ -1,56 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gaming Dashboard</title>
-    <link rel="stylesheet" href="/home/home.css" />
-    <link rel="stylesheet" href="/navbar/navbar.css" />
-  </head>
 
-  <body>
-    <div id="navbar"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaming Dashboard</title>
+  <link rel="stylesheet" href="/home/home.css" />
+  <link rel="stylesheet" href="/navbar/navbar.css" />
+</head>
 
-    <div class="main-container">
-      <div class="content-container">
-        <div class="text-content">
-          <p class="sub-title">Proved By prodesigner</p>
-          <h1 class="main-title">Work that we produce for our clients</h1>
-          <p class="main-paragraph">
-            Lorem ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem ipsum has been the industry's standard.
-          </p>
-          <button class="main-button">Get more details</button>
-        </div>
+<body>
+  <div id="navbar"></div>
+
+  <div class="main-container">
+    <div class="content-container">
+      <div class="text-content">
+        <p class="sub-title">Proved By prodesigner</p>
+        <h1 class="main-title">Work that we produce for our clients</h1>
+        <p class="main-paragraph">
+          Lorem ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem ipsum has been the industry's standard.
+        </p>
+        <button class="main-button">Get more details</button>
 
         <div class="image-container">
-          <img
-            src="/home/images/joy_stick.png"
-            alt="Joystick"
-            class="joystick-image"
-          />
+          <img src="/home/images/joy_stick.png" alt="Joystick" class="joystick-image" />
           <div class="logos">
-            <img
-              src="/home/images/unreal 1.png"
-              alt="Unreal Engine Logo"
-              class="logo-unreal"
-            />
-            <img
-              src="/home/images/cry.png"
-              alt="CryEngine Logo"
-              class="logo-cry"
-            />
-            <img
-              src="/home/images/unity.png"
-              alt="Unity Logo"
-              class="logo-unity"
-            />
+            <img src="/home/images/unreal 1.png" alt="Unreal Engine Logo" class="logo-unreal" />
+            <img src="/home/images/cry.png" alt="CryEngine Logo" class="logo-cry" />
+            <img src="/home/images/unity.png" alt="Unity Logo" class="logo-unity" />
           </div>
         </div>
       </div>
     </div>
 
-    <script src="/navbar/navbar.js"></script>
-    <script src="/navbar/load-navbar.js"></script>
-  </body>
+    <div class="trending-games">
+      <div class ="container-title">
+      <h2>Currently Trending Games</h2> 
+      <button class="see-all-button">SEE ALL</button>
+      </div>
+      <div class="games-list">
+        <div class="game">
+          <img src="/home/images/game_forhonor.png" alt="Game 1">
+         <p> 40 Followers</p>
+        </div>
+        <div class="game">
+          <img src="/home/images/game_lol.png" alt="Game 2">
+          <p>40 Followers</p>
+        </div>
+        <div class="game">
+          <img src="/home/images/game_crysis.png" alt="Game 3">
+          <p>40 Followers</p>
+        </div>
+        <div class="game">
+          <img src="/home/images/game_stray.png" alt="Game 4">
+          <p>40 Followers</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="lower-section">
+      <p class="lorem-title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p class="lorem-paragraph">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem
+        ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <img src="/home/images/aranha.png" alt="Image" class="lower-image">
+    </div>
+  </div>
+
+
+
+  <script src="/navbar/navbar.js"></script>
+  <script src="/navbar/load-navbar.js"></script>
+</body>
+
 </html>
