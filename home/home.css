@@ -8,7 +8,6 @@ body {
   background-color: #1d1b40;
   color: #ffffff;
   padding: 0;
-  /* background: linear-gradient(to right, #39289f 0%, #422f9c 100%); */
   width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
@@ -113,9 +112,9 @@ body {
 .container-title {
   background-color: #8ab613;
   display: flex;
-  justify-content: space-between; /* Adiciona espaço entre o título e o botão */
-  align-items: center; /* Centraliza verticalmente os itens no container */
-  margin: 0;/* Adiciona um pouco de espaço à esquerda e à direita */
+  justify-content: space-between; 
+  align-items: center;
+  margin: 0;
 }
 
 
@@ -157,8 +156,8 @@ body {
 }
 
 .game p::before {
-  content: url("/home/images/fire.png"); /* URL da imagem a ser adicionada */
-  vertical-align: middle; /* Centraliza a imagem verticalmente com o texto */
+  content: url("/home/images/fire.png");
+  vertical-align: middle;
 }
 
 .see-all-button {
@@ -181,4 +180,61 @@ body {
   background-color: #ffffff72;
 }
 
+.services-section {
+  background-color: #953887;
+  color: #FFFFFF;
+  padding: 110px 0px 157px;
+  position: relative;
+  width: 100%;
+  
+}
+.services-container {
+  justify-content: space-between;
+}
 
+.services-section h1 {
+  background-color: rgba(0, 255, 255, 0.133);
+  text-align: center; 
+  margin: auto;
+  font-size: 35px;
+  font-weight: 600;
+  max-width: 800px;
+  margin-bottom: 75.5px;
+  line-height: 65px;
+}
+
+.services-container h2 {
+  background-color: #1c44e4;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.services-section p {
+  background-color: rgb(57, 201, 57);
+  font-size: 16px;
+  font-weight: 400px;
+  margin-bottom: 58px;
+  line-height: 29.5px;
+}
+.services-image {
+  position: relative;
+  margin: 0 auto;
+}
+.services-image img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.pontinhos{
+  position: absolute;
+  top: 0; /* Alinha ao topo */
+  right: 160px;
+  width: 200px;
+  height: 71px;
+  transform: translateY(-71px); 
+  background-color: transparent;
+  background-image: radial-gradient(circle, #c6552889 3.5px, transparent 3.5px);
+  background-size: 20px 20px;
+  background-repeat: repeat;
+}
