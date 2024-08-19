@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-    
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -10,48 +10,47 @@ body {
 
 footer {
     background-color: #0b0b0b;
-    padding: 40px 0 25px; 
+    padding: 40px 0 25px;
 }
 
 .footer-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Define quatro colunas de tamanho igual */
+    display: flex;
+    justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .footer-logo {
-    margin: 0 auto;
-    grid-column: span 1; /* Ocupa uma coluna */
-    flex-direction: column;
     display: flex;
-    max-width: 100%; /* Garante que a largura do contêiner não exceda o limite */
-
+    flex-direction: column;
+    max-width: 100%;
 }
 
 .footer-logo h2 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
 .footer-logo p {
     margin-top: 0;
-    margin-bottom: 25px;
     font-size: 16px;
-    max-width: 350;
-    
+    max-width: 350px;
+}
+
+.footer-logo-trademark {
+    margin-top: 35px;
 }
 
 .footer-links {
     display: flex;
-    grid-column: span 1; /* Ocupa uma coluna */
     flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
+    
 }
 
 .footer-links h3 {
+    font-weight: 400;
     font-size: 17px;
 }
 
@@ -74,13 +73,13 @@ footer {
 }
 
 .footer-contact {
-    margin: 0 auto;
-    grid-column: span 1; /* Ocupa duas colunas para maior espaço */
     display: flex;
     flex-direction: column;
+    max-width: 280px;
 }
 
 .footer-contact h3 {
+    font-weight: 400;
     font-size: 17px;
     margin-bottom: 20px;
 }
@@ -92,20 +91,16 @@ footer {
 
 .contact-info {
     display: flex;
-    align-items: center; /* Alinha o conteúdo verticalmente */
+    align-items: center;
 }
 
 .social-icons {
-    grid-column: span 1; /* Garante que os ícones sociais ocupem uma coluna */
     display: flex;
-    justify-content: center;
-    margin-top: 154px;
-    gap: 6px;
-
+    align-items: center;
+    gap: 15px;
 }
 
 .social-icons a {
-    margin-right: 10px;
     display: inline-block;
     width: 36px;
     height: 36px;
@@ -128,7 +123,6 @@ footer {
 }
 
 .footer-bottom {
-    grid-column: span 4; /* Faz a seção de rodapé ocupar toda a largura disponível */
     text-align: center;
     margin-top: 40px;
     padding-top: 20px;
@@ -138,5 +132,5 @@ footer {
 .footer-bottom p {
     font-size: 13px;
     margin: 0;
-
 }
+
