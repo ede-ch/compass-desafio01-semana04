@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+header {
+  background: linear-gradient(to right, #39289f 0%, #422f9c 100%);
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 37px 55px;
+}
+header .logo {
+  font-weight: 800;
+  font-size: 29px;
+  color: #fff;
+  text-decoration: none;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  margin-right: 88px;
+}
+header ul li:last-child {
+  margin-right: 0;
+}
+header ul li:nth-last-child(2) {
+  margin-right: 37px;
+}
+header ul li a {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s, background-color 0.3s;
+}
+header ul li a.contact-button {
+  font-size: 13px;
+  background-color: #fa9021;
+  color: #fff;
+  border-radius: 6px;
+  padding: 13px 41.34px;
+  transition: background-color 0.3s;
+}
+header ul li a:hover {
+  color: #ff9f1c;
+}
+header ul li a.contact-button:hover {
+  background-color: #ff851b;
+}
+main {
+  margin-top: 150px; /* Espaço para a navbar fixa */
+}
