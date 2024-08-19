@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+header {
+  background: linear-gradient(180deg, #271baf , #281cb4 100%); 
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 37px 55px;
+}
+header .logo {
+  font-weight: 800;
+  font-size: 29px;
+  color: #fff;
+  text-decoration: none;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  margin-right: 88px;
+}
+header ul li:last-child {
+  margin-right: 0;
+}
+header ul li:nth-last-child(2) {
+  margin-right: 37px;
+}
+header ul li a {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: color 0.3s, background-color 0.3s;
+}
+header ul li a.contact-button {
+  font-size: 13px;
+  background-color: #fa9021;
+  color: #fff;
+  border-radius: 6px;
+  padding: 13px 41.34px;
+  transition: background-color 0.3s;
+}
+header ul li a:hover {
+  color: #ff9f1c;
+}
+header ul li a.contact-button:hover {
+  background-color: #ff851b;
+}
+main {
+  margin-top: 150px; /* Espaço para a navbar fixa */
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #271ABD , #383837 100%); 
+}
+
+
+.contact-hero {
+    padding: 50px;
+    text-align: center;
+    padding: 0;
+}
+
+.breadcrumb {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.breadcrumb .home {
+  color: white;
+}
+
+.breadcrumb .contact-us {
+  color: #E87D0E; /* Laranja */
+}
+
+.hero-content h1 {
+    font-size: 33px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.subtext {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #ffffff; 
+}
+
+.world-map {
+    position: relative;
+    text-align: center;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 137px;
+}
+
+.socials p {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #131313;
+}
+
+.social-icons img {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
+
+.separator {
+  background-color: white;
+  margin: 0;
+  width: 1px;
+  height: 50px;
+}
+
+.phone, .additional-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.phone img, .additional-info img {
+  width: 30px;
+  height: 30px;
+}
+
+.additional-info p {
+  margin: 0;
+  text-align: left;
+  max-width: 400px;
+}
+
+
+.contact-form-section {
+    background-color: #1C140F;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-form-section h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.contact-form-section p {
+    font-size: 13px;
+    color: #ffffff;
+    margin-bottom: 40px;
+
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+
+}
+
+.input-group label {
+  color: #4F4F4F;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: Poppins, sans-serif;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 9px;
+  background-color: #444;
+  color: #fff;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+
+.text-content2 {
+  text-align: left;
+  padding: 105px 0px 0px 155px;
+}
+
+.text-content2 h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.text-content2 p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  max-width: 550px;
+  line-height: 30px;
+  margin: 0;
+}
+
+
+.submit-button {
+  font-family: Poppins, sans-serif;
+    padding: 15px 30px;
+    background-color: #E87D0E;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+
+.submit-button:hover {
+    background-color: #D1730D;
+}
+
+.subscribe {
+  padding: 54px 0px 163px 0px;
+  text-align: center;
+}
+.subscribe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c140f;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 40px 56px 10px 56px;
+  max-width: 1100px;
+  height: 150px;
+  margin: 40px auto;
+}
+
+.subscribe-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  color: white;
+  text-align: left; 
+}
+
+.subscribe h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.subscribe p {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 0px 25px 0px 0px;
+  font-weight: 300;
+  max-width: 500px;
+  line-height: 30px;
+}
+.subscribe-form {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.subscribe-form input {
+  font-family: Poppins, sans-serif;
+  padding: 14px 80px 14px 20px;
+  border-radius: 8px;
+  border: none;
+  flex: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.subscribe-form button {
+  font-family: Poppins, sans-serif;
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%); 
+  padding: 10px 20px; 
+  background-color: #dc7000;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.subscribe-form button:hover {
+  background-color: #ff8400;
+}
