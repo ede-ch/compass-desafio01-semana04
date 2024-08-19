@@ -279,6 +279,7 @@ textarea {
   padding: 54px 0px 163px 0px;
   text-align: center;
 }
+
 .subscribe-container {
   display: flex;
   justify-content: space-between;
@@ -314,15 +315,18 @@ textarea {
   max-width: 500px;
   line-height: 30px;
 }
+
 .subscribe-form {
   position: relative;
   width: 100%;
   max-width: 400px;
+  display: flex;
+  align-items: center;
 }
 
 .subscribe-form input {
   font-family: Poppins, sans-serif;
-  padding: 14px 80px 14px 20px;
+  padding: 14px 20px;
   border-radius: 8px;
   border: none;
   flex: 1;
@@ -330,11 +334,12 @@ textarea {
   box-sizing: border-box;
 }
 
+
 .subscribe-form button {
   font-family: Poppins, sans-serif;
   position: absolute;
   top: 50%;
-  right: 10px; 
+  right: 25.5px; 
   transform: translateY(-50%); 
   padding: 10px 20px; 
   background-color: #dc7000;
@@ -343,13 +348,13 @@ textarea {
   border-radius: 8px;
   cursor: pointer; 
   transition: background-color 0.3s ease; 
+  z-index: 1;
 }
 
 .subscribe-form button:hover {
   background-color: #ff8400;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
