@@ -11,3 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch((error) => console.error("Error loading navbar:", error));
 });
+
+function inDevelopmentAlert() {
+    alert("Essa página não está disponível durante desenvolvimento.");
+    window.location = "/home/index.html";
+}
